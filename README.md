@@ -1,4 +1,4 @@
-# Bitterlife
+# Betterlife
 ## :octocat: Integrantes
 [Daniel Duarte](https://github.com/JoseDanielF) | [Gabriel Félix](https://github.com/Bielfla27) | [Victor Winicius](https://github.com/VictorW-dev) | [Lucas Flayban](https://github.com/Flayban) | [Eduarda Interaminense](https://github.com/hodeaven) | [Rian Wilker](https://github.com/RWilker87) | [Carlos Emmanuel](https://github.com/carlosemmanueldev)
 ## :page_with_curl: Sobre o Projeto
