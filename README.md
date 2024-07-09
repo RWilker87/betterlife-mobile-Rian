@@ -7,6 +7,6 @@ O projeto se dá por um sistema para animais silvestres. Sistema esse que tem co
 
 ## :hammer_and_wrench: Tecnologias que serão usadas
 ### [Flutter](https://flutter.dev/)
-*   Versão 3.19.6
+*   Versão 3.22.2
 ## :construction: Status do Projeto
 Inicial
