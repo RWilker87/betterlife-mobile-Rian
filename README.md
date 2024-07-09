@@ -1,16 +1,12 @@
-# teste
+# Bitterlife
+## :octocat: Integrantes
+[Daniel Duarte](https://github.com/JoseDanielF) | [Gabriel Félix](https://github.com/Bielfla27) | [Victor Winicius](https://github.com/VictorW-dev) | [Lucas Flayban](https://github.com/Flayban) | [Eduarda Interaminense](https://github.com/hodeaven) | [Rian Wilker](https://github.com/RWilker87) | [Carlos Emmanuel](https://github.com/carlosemmanueldev)
+## :page_with_curl: Sobre o Projeto
+Projeto para implementação de um aplicativo em Flutter para a disciplina de __Projeto de Desenvolvimento de Software - Projetão__ ministrado pelo Professor Dr. [Rodrigo Rocha](https://github.com/rgcrochaa), da UFAPE, referente ao período de 2024.1 com intuito de avaliação para a 1ª e 2ª Verificação de Aprendizagem.
+O projeto se dá por um sistema para animais silvestres. Sistema esse que tem como principal objetivo facilitar o acesso à informação e promover a imersão simplificada tanto para profissionais quanto para o público em geral referente aos animais silvestres.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## :hammer_and_wrench: Tecnologias que serão usadas
+### [Flutter](https://flutter.dev/)
+*   Versão 3.19.6
+## :construction: Status do Projeto
+Inicial

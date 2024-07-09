@@ -1,24 +1,23 @@
-import 'package:flutter/material.dart';
-import 'screens/login_screen.dart';
-import 'screens/register_screen.dart';
+import 'dart:io';
+import 'package:device_preview/device_preview.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/foundation.dart';
+import 'package:flutter/services.dart';
+import 'package:logging/logging.dart';
+import 'package:provider/provider.dart';
+import 'app.dart';
+import 'screens/home/home_screen_controller.dart';
+import 'screens/login/login_controller.dart';
+import 'screens/login/login_repository.dart';
+import 'shared/core/models/user_model.dart';
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'BetterFife APP',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      initialRoute: '/',
-      routes: {
-        '/': (context) => LoginScreen(),
-        '/register': (context) => RegisterScreen(),
-      },
-    );
-  }
+main() async {
+  runApp(DevicePreview(
+      enabled: false,
+      builder: (context) => MultiProvider(providers: [
+            ChangeNotifierProvider(create: (_) => HomeScreenController()),
+            ChangeNotifierProvider(create: (_) => LoginRepository()),
+             ChangeNotifierProvider(create: (_) => UserModel()),
+            ChangeNotifierProvider(create: (_) => LoginController()),
+          ], child: const App())));
 }
